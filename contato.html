@@ -71,6 +71,29 @@
   </nav>
 <!-- Fim doNavbar -->
 
+<div class="container">
+
+    <form class="was-validated my-3">
+        <div class="mb-3">
+          <label for="validationTextarea">Digite seu texto abaixo</label>
+          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Digite aqui" required></textarea>
+          <div class="invalid-feedback"></div>
+        </div>
+          
+        <div class="form-group">
+            <label for="validationTextarea">Escolha uma opção</label> 
+          <select class="custom-select" required>
+            <option value="">Suporte</option>
+            <option value="1">Reembolso</option>
+            <option value="2">Duvidas</option>
+            <option value="3">Feedback</option>
+          </select>
+      
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+          <label class="custom-file-label" for="validatedCustomFile">Escolher arquivo...</label>
+      </form>
+</div>
 
 
     </div>
